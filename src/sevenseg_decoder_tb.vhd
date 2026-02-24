@@ -51,22 +51,22 @@ architecture Behavioral of sevenseg_decoder_tb is
               );
             test_process : process
             begin
-             w_Hex <= x"0"; wait for 10ns;
-             w_Hex <= x"1"; wait for 10ns;
-             w_Hex <= x"2"; wait for 10ns;
-             w_Hex <= x"3"; wait for 10ns;
-             w_Hex <= x"4"; wait for 10ns;
-             w_Hex <= x"5"; wait for 10ns;
-             w_Hex <= x"6"; wait for 10ns;
-             w_Hex <= x"7"; wait for 10ns;
-             w_Hex <= x"8"; wait for 10ns;
-             w_Hex <= x"9"; wait for 10ns;
-             w_Hex <= x"A"; wait for 10ns;
-             w_Hex <= x"B"; wait for 10ns;
-             w_Hex <= x"C"; wait for 10ns;
-             w_Hex <= x"D"; wait for 10ns;
-             w_Hex <= x"E"; wait for 10ns;
-             w_Hex <= x"F"; wait for 10ns;
+             w_Hex <= x"0"; wait for 10 ns;
+             w_Hex <= x"1"; wait for 10 ns;
+             w_Hex <= x"2"; wait for 10 ns;
+             w_Hex <= x"3"; wait for 10 ns;
+             w_Hex <= x"4"; wait for 10 ns;
+             w_Hex <= x"5"; wait for 10 ns;
+             w_Hex <= x"6"; wait for 10 ns;
+             w_Hex <= x"7"; wait for 10 ns;
+             w_Hex <= x"8"; wait for 10 ns;
+             w_Hex <= x"9"; wait for 10 ns;
+             w_Hex <= x"A"; wait for 10 ns;
+             w_Hex <= x"B"; wait for 10 ns;
+             w_Hex <= x"C"; wait for 10 ns;
+             w_Hex <= x"D"; wait for 10 ns;
+             w_Hex <= x"E"; wait for 10 ns;
+             w_Hex <= x"F"; wait for 10 ns;
              
             wait;
            end process;
